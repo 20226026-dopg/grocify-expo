@@ -1,4 +1,4 @@
-import useSocialAuth from "../hooks/useSocialAuth";
+import useSocialAuth from "../../hooks/useSocialAuth";
 import { Image } from "expo-image";
 import { Pressable, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
