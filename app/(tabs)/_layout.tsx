@@ -8,6 +8,8 @@ import {
 } from "expo-router/unstable-native-tabs";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { useColorScheme } from "react-native";
+import { useGroceryStore } from "@/store/grocery-store";
+import { useEffect } from "react";
 
 export default function TabsLayout() {
   const { isSignedIn, isLoaded } = useAuth();
