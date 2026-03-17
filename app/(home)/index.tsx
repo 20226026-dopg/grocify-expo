@@ -1,6 +1,5 @@
 import { Show, useUser } from '@clerk/expo'
 import { useClerk } from '@clerk/expo'
-import { Link } from 'expo-router'
 import { Text, View, Pressable, StyleSheet } from 'react-native'
 
 export default function Page() {
@@ -8,7 +7,7 @@ export default function Page() {
   const { signOut } = useClerk()
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} className="bg-background text-muted-foreground">
       <Text style={styles.title}>Welcomeeeee!</Text>
   
       <Show when="signed-in">
