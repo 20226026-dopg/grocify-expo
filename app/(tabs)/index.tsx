@@ -8,7 +8,7 @@ export default function Page() {
 
   return (
     <View style={styles.container} className="bg-background text-muted-foreground">
-      <Text style={styles.title}>Welcomeeeee!</Text>
+      <Text style={styles.title}>Welcome!</Text>
   
       <Show when="signed-in">
         <Text>Hello {user?.emailAddresses[0].emailAddress}</Text>
